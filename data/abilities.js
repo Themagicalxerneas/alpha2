@@ -48,6 +48,19 @@ let BattleAbilities = {
 		rating: 0.1,
 		num: 0,
 	},
+  "specialmoxie": {
+		desc: "This Pokemon's Special attack is raised by 1 stage if it attacks and knocks out another Pokemon.",
+		shortDesc: "This Pokemon's Special attack is raised by 1 stage if it attacks and KOes another Pokemon.",
+		onSourceFaint: function (target, source, effect) {
+			if (effect && effect.effectType === 'Move') {
+				this.boost({spa: 1}, source);
+			}
+		},
+		id: "specialmoxie",
+		name: "Special Moxie",
+		rating: 3.5,
+		num: 153,
+	},
 	"adaptability": {
 		desc: "This Pokemon's moves that match one of its types have a same-type attack bonus (STAB) of 2 instead of 1.5.",
 		shortDesc: "This Pokemon's same-type attack bonus (STAB) is 2 instead of 1.5.",
