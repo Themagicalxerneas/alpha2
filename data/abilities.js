@@ -1524,6 +1524,16 @@ let BattleAbilities = {
     rating: 3.5,
     num: 1456
   },
+  boltspeed: {
+    shortDesc: "The Electric-moves have their priority increased by 1.",
+    onModifyPriority: function(priority, pokemon, target, move) {
+      if (move && move.type === "Electric") return priority + 1;
+    },
+    id: "boltspeed",
+    name: "Bolt Speed",
+    rating: 3,
+    num: 177
+  },
   galvanize: {
     desc:
       "This Pokemon's Normal-type moves become Electric-type moves and have their power multiplied by 1.2. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
