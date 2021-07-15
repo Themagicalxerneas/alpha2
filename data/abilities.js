@@ -1522,19 +1522,7 @@ let BattleAbilities = {
     id: "furcoat",
     name: "Fur Coat",
     rating: 3.5,
-    num: 169
-  },
-  galewings: {
-    shortDesc:
-      "If this Pokemon is at full HP, its Flying-type moves have their priority increased by 1.",
-    onModifyPriority: function(priority, pokemon, target, move) {
-      if (move && move.type === "Flying" && pokemon.hp === pokemon.maxhp)
-        return priority + 1;
-    },
-    id: "galewings",
-    name: "Gale Wings",
-    rating: 3,
-    num: 177
+    num: 1456
   },
   galvanize: {
     desc:
