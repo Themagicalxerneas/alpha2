@@ -408,5 +408,82 @@
       }
     ],
     "pokedex": {}
+  },
+  "themagicalxerneas": {
+    "game": "SGgame - Alpha",
+    "version": "(Alpha) 1.0",
+    "userid": "themagicalxerneas",
+    "poke": 0,
+    "time": 0,
+    "bag": {
+      "items": {
+        "leafstone": 1,
+        "firestone": 1,
+        "waterstone": 1,
+        "thunderstone": 1,
+        "linkcable": 5,
+        "icestone": 1
+      },
+      "medicine": {
+        "potion": 5,
+        "rarecandy": 3
+      },
+      "pokeballs": {
+        "pokeball": 50,
+        "greatball": 25,
+        "ultraball": 10,
+        "masterball": 1
+      },
+      "berries": {
+        "oranberry": 5,
+        "lumberry": 2
+      },
+      "keyitems": {
+        "alphaticket": 1
+      }
+    },
+    "pc": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "party": [
+      {
+        "name": "mudkip",
+        "species": "mudkip",
+        "item": "",
+        "ability": "Torrent",
+        "moves": [
+          "mudslap",
+          "watergun",
+          "tackle",
+          "growl"
+        ],
+        "nature": "Rash",
+        "gender": "M",
+        "ivs": {
+          "hp": 6,
+          "atk": 25,
+          "def": 1,
+          "spa": 11,
+          "spd": 2,
+          "spe": 26
+        },
+        "level": 10,
+        "happiness": 70,
+        "hpType": "",
+        "pokeball": "pokeball",
+        "exp": 560,
+        "ot": "themagicalxerneas"
+      }
+    ],
+    "pokedex": {}
   }
 }
